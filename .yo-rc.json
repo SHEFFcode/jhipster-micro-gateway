@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sheffmachine"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "com.sheffmachine",
+    "packageFolder": "com/sheffmachine",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDEyMTU5YTEzNDk1ZDM5ZmM1ZWRiY2FkNDRmZmU3M2NhZWVmMzRmODQ4YjRkYWY2Njc1YzRkODJmOTY4MDFhYmNlNTllYjZkNzcwMDFiOTA4Yjc3MzZiZDNjMDQwNjMxYzg0NzdhYzNlNTlmZjBkOTI1OTdkNWViNzQ2NjU1NTU=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
