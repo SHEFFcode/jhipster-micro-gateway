@@ -11,6 +11,18 @@ import activate, { ActivateState } from 'app/modules/account/activate/activate.r
 import password, { PasswordState } from 'app/modules/account/password/password.reducer';
 import settings, { SettingsState } from 'app/modules/account/settings/settings.reducer';
 import passwordReset, { PasswordResetState } from 'app/modules/account/password-reset/password-reset.reducer';
+// prettier-ignore
+import speaker, {
+  SpeakerState
+} from 'app/entities/conference/speaker/speaker.reducer';
+// prettier-ignore
+import session, {
+  SessionState
+} from 'app/entities/conference/session/session.reducer';
+// prettier-ignore
+import blog, {
+  BlogState
+} from 'app/entities/blog/blog/blog.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -23,6 +35,9 @@ export interface IRootState {
   readonly passwordReset: PasswordResetState;
   readonly password: PasswordState;
   readonly settings: SettingsState;
+  readonly speaker: SpeakerState;
+  readonly session: SessionState;
+  readonly blog: BlogState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -37,6 +52,9 @@ const rootReducer = combineReducers<IRootState>({
   passwordReset,
   password,
   settings,
+  speaker,
+  session,
+  blog,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });
